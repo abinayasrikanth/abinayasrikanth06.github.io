@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Abinaya Srikanth - MS Mechanical Engineering Student specializing in Vehicle Control Systems, Autonomous Vehicles, and Robotics">
+    <meta name="keywords" content="Mechanical Engineer, Vehicle Systems, Autonomous Vehicles, Controls Engineering, Robotics">
+    <title>Abinaya Srikanth | Mechanical Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">AS</a>
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Abinaya Srikanth</h1>
+            <h2 class="hero-subtitle">MS Mechanical Engineering | Vehicle Systems & Controls</h2>
+            <p class="hero-description">Graduating May 2026 | Seeking Full-Time Opportunities (OPT Eligible)</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                <a href="https://linkedin.com/in/abinaya-srikanth" target="_blank" class="btn btn-secondary">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a graduate student pursuing my MS in Mechanical Engineering at the <strong>University of Texas at Dallas</strong>, specializing in vehicle control systems, autonomous vehicles, and robotics.</p>
+                    <p>My research focuses on cutting-edge technologies including:</p>
+                    <ul>
+                        <li><strong>Vehicle-to-Everything (V2X) Communication</strong> using Deep Reinforcement Learning</li>
+                        <li><strong>Anti-Lock Braking Systems (ABS)</strong> for three-wheelers with published research</li>
+                        <li><strong>Multi-Robot Systems</strong> with distributed control and consensus algorithms</li>
+                        <li><strong>Swarm Intelligence</strong> and synchronization phenomena</li>
+                    </ul>
+                    <p>I'm passionate about developing intelligent systems that make transportation safer and more efficient.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3>MS Mechanical Engineering</h3>
+                        <p>UT Dallas | May 2026</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-file-alt"></i>
+                        <h3>Published Research</h3>
+                        <p>ABS for Three-Wheelers</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Location</h3>
+                        <p>Dallas-Fort Worth, TX</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Research & Projects</h2>
+            <div class="projects-grid">
+
+                <!-- Project 1: V2X -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-car project-icon"></i>
+                        <span class="project-status">Ongoing - Thesis</span>
+                    </div>
+                    <h3>Deep Reinforcement Learning for V2X Communication Optimization</h3>
+                    <p class="project-description">
+                        Developing a DDPG-based RL agent to optimize V2X communication reliability in multi-vehicle simulation environments, addressing challenges in connected and autonomous vehicle systems.
+                    </p>
+                    <div class="project-details">
+                        <h4>Key Achievements:</h4>
+                        <ul>
+                            <li>PRR improved from -0.1 (benchmark) to -0.8 (RL), reducing packet loss spikes to -4.8ms</li>
+                            <li>Demonstrated adaptive, robust parameter control in dynamic environments</li>
+                            <li>Outperformed baseline in reliability, efficiency, and reward stability</li>
+                        </ul>
+                        <h4>Technologies:</h4>
+                        <div class="tech-tags">
+                            <span class="tag">SUMO</span>
+                            <span class="tag">MATLAB/Simulink</span>
+                            <span class="tag">Deep RL</span>
+                            <span class="tag">DDPG</span>
+                            <span class="tag">Python</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: ABS -->
+                <div class="project-card featured">
+                    <div class="project-header">
+                        <i class="fas fa-file-pdf project-icon"></i>
+                        <span class="project-status">Published</span>
+                    </div>
+                    <h3>Anti-Lock Braking System for Tadpole Type Three-Wheeler</h3>
+                    <p class="project-description">
+                        Designed and implemented a custom ABS for three-wheeled vehicles, targeting the unique challenge of urban last-mile transport safety. Published research with experimental validation.
+                    </p>
+                    <div class="project-details">
+                        <h4>Key Results:</h4>
+                        <ul>
+                            <li>8-12 meter reduction in stopping distance at 40-60 km/h vs non-ABS configuration</li>
+                            <li>Successfully prevented premature rear wheel lockup and critical failure modes</li>
+                            <li>Demonstrated robust performance across varied road conditions (dry/wet)</li>
+                            <li>Brake pressure modulation up to 20 times/second for optimal tire-road friction</li>
+                        </ul>
+                        <h4>Technical Implementation:</h4>
+                        <ul>
+                            <li>6-DOF vehicle dynamics modeling</li>
+                            <li>Multi-phase ABS control algorithm (Altair Activate + MATLAB/Simulink)</li>
+                            <li>Custom wheel speed sensor integration with 1mm precision</li>
+                            <li>Modified Maruti ABS components for three-wheeler geometry</li>
+                        </ul>
+                        <h4>Technologies:</h4>
+                        <div class="tech-tags">
+                            <span class="tag">MATLAB/Simulink</span>
+                            <span class="tag">Altair Activate</span>
+                            <span class="tag">Control Systems</span>
+                            <span class="tag">Vehicle Dynamics</span>
+                            <span class="tag">Hardware Integration</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: Hydrogen Regulator -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-cog project-icon"></i>
+                        <span class="project-status">Completed</span>
+                    </div>
+                    <h3>Design and Development of Hydrogen Fuel Pressure Regulator</h3>
+                    <p class="project-description">
+                        Designed a compact, reliable pressure regulator for hydrogen fuel systems, targeting clean energy applications with high-pressure safety requirements.
+                    </p>
+                    <div class="project-details">
+                        <h4>Key Achievements:</h4>
+                        <ul>
+                            <li>Achieved safe operation up to 63 PSI (above 60 PSI specification)</li>
+                            <li>Low internal pressure: 3-7 PSI with precise hydrogen flow control</li>
+                            <li>Maintained safe internal temperatures (max 90°C at housing)</li>
+                            <li>Developed repeatable prototyping process ready for scaling to production</li>
+                        </ul>
+                        <h4>Design Process:</h4>
+                        <ul>
+                            <li>SolidWorks CAD modeling with parametric design for improved manufacturability</li>
+                            <li>Selected aluminum alloy 6061-T6 for durability and hydrogen compatibility</li>
+                            <li>FEA/FAS 3D printing for rapid prototyping and refinement</li>
+                            <li>Integrated pressure vessel and thermal simulations for operational safety</li>
+                        </ul>
+                        <h4>Technologies:</h4>
+                        <div class="tech-tags">
+                            <span class="tag">SolidWorks</span>
+                            <span class="tag">FEA/Thermal Analysis</span>
+                            <span class="tag">3D Printing</span>
+                            <span class="tag">Parametric Design</span>
+                            <span class="tag">Prototyping</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4: Firefly Swarms -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-project-diagram project-icon"></i>
+                        <span class="project-status">Research</span>
+                    </div>
+                    <h3>Synchronization Phenomena in Firefly Swarms</h3>
+                    <p class="project-description">
+                        Investigated biological swarm intelligence through mathematical modeling of firefly synchronization, exploring decentralized coordination mechanisms for robotics applications.
+                    </p>
+                    <div class="project-details">
+                        <h4>Key Findings:</h4>
+                        <ul>
+                            <li>Demonstrated how simple local rules lead to complex coordinated global behavior</li>
+                            <li>Identified key parameters: coupling strength, frequency spread, interaction radius</li>
+                            <li>Showed principles applicable to swarm robotics, distributed control, and sensor networks</li>
+                        </ul>
+                        <h4>Technical Approach:</h4>
+                        <ul>
+                            <li>Developed Kuramoto model for phase synchronization</li>
+                            <li>Implemented vectorized phase updates and adaptive coupling in simulations</li>
+                            <li>Analyzed effects of network topology on synchronization dynamics</li>
+                        </ul>
+                        <h4>Technologies:</h4>
+                        <div class="tech-tags">
+                            <span class="tag">Mathematical Modeling</span>
+                            <span class="tag">Kuramoto Model</span>
+                            <span class="tag">MATLAB</span>
+                            <span class="tag">Swarm Intelligence</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5: Multi-Robot Systems -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-robot project-icon"></i>
+                        <span class="project-status">Research</span>
+                    </div>
+                    <h3>Distributed Path Consensus and Obstacle Avoidance for Multi-Robot Systems</h3>
+                    <p class="project-description">
+                        Developed a distributed control framework enabling autonomous robot teams to navigate collaboratively while avoiding obstacles—all without centralized control.
+                    </p>
+                    <div class="project-details">
+                        <h4>Key Results:</h4>
+                        <ul>
+                            <li>Achieved robust consensus and formation control with up to 100 robots</li>
+                            <li>Linear scaling in communication overhead for mapping</li>
+                            <li>System adapted to communication failures, heterogeneous agents, and dynamic environments</li>
+                            <li>Explored privacy-preserving consensus and adaptive network topologies</li>
+                        </ul>
+                        <h4>Technical Implementation:</h4>
+                        <ul>
+                            <li>Dynamic average consensus algorithms (PI consensus estimators)</li>
+                            <li>Graph Laplacian-based communication optimization</li>
+                            <li>Quadratic programming for collision-free navigation with safety barrier certificates</li>
+                            <li>ROS 2 multi-robot simulation with domain IDs for namespace isolation</li>
+                            <li>Decentralized visual SLAM for distributed mapping and Reynolds tracking rules</li>
+                        </ul>
+                        <h4>Technologies:</h4>
+                        <div class="tech-tags">
+                            <span class="tag">ROS 2</span>
+                            <span class="tag">Graph Theory</span>
+                            <span class="tag">Consensus Algorithms</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">Visual SLAM</span>
+                            <span class="tag">Distributed Control</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Programming & Simulation</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">MATLAB</span>
+                        <span class="skill-tag">Simulink</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">SUMO</span>
+                        <span class="skill-tag">Altair Activate</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-drafting-compass"></i> CAD & Design</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">SolidWorks</span>
+                        <span class="skill-tag">CATIA</span>
+                        <span class="skill-tag">AutoCAD</span>
+                        <span class="skill-tag">FEA/Thermal Analysis</span>
+                        <span class="skill-tag">3D Printing</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-brain"></i> Machine Learning & AI</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Deep Reinforcement Learning</span>
+                        <span class="skill-tag">DDPG</span>
+                        <span class="skill-tag">Neural Networks</span>
+                        <span class="skill-tag">TensorFlow</span>
+                        <span class="skill-tag">PyTorch</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-car-side"></i> Automotive & Controls</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Vehicle Dynamics</span>
+                        <span class="skill-tag">Control Systems</span>
+                        <span class="skill-tag">ABS Development</span>
+                        <span class="skill-tag">V2X Communication</span>
+                        <span class="skill-tag">Autonomous Systems</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-robot"></i> Robotics</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">ROS 2</span>
+                        <span class="skill-tag">Multi-Robot Systems</span>
+                        <span class="skill-tag">SLAM</span>
+                        <span class="skill-tag">Swarm Intelligence</span>
+                        <span class="skill-tag">Distributed Control</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Tools & Platforms</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git/GitHub</span>
+                        <span class="skill-tag">Linux</span>
+                        <span class="skill-tag">Data Analysis</span>
+                        <span class="skill-tag">Technical Writing</span>
+                        <span class="skill-tag">Lab Testing</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-intro">I'm actively seeking full-time opportunities starting May 2026. Open to roles in vehicle systems, autonomous vehicles, robotics, controls engineering, and related fields.</p>
+            <div class="contact-grid">
+                <a href="mailto:abinayasrikanth@gmail.com" class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>abinayasrikanth@gmail.com</p>
+                </a>
+                <a href="https://linkedin.com/in/abinaya-srikanth" target="_blank" class="contact-card">
+                    <i class="fab fa-linkedin"></i>
+                    <h3>LinkedIn</h3>
+                    <p>linkedin.com/in/abinaya-srikanth</p>
+                </a>
+                <a href="tel:+12148999122" class="contact-card">
+                    <i class="fas fa-phone"></i>
+                    <h3>Phone</h3>
+                    <p>+1 (214) 899-9122</p>
+                </a>
+                <div class="contact-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Location</h3>
+                    <p>Dallas-Fort Worth, TX</p>
+                    <p class="small-text">Open to relocate</p>
+                </div>
+            </div>
+            <div class="availability-banner">
+                <i class="fas fa-calendar-check"></i>
+                <p><strong>Available:</strong> May 2026 | <strong>Work Authorization:</strong> OPT Eligible (12-24 months)</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Abinaya Srikanth. All rights reserved.</p>
+            <p class="footer-note">Built with passion for autonomous systems and robotics</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
