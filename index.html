@@ -92,24 +92,36 @@
                         <i class="fas fa-car project-icon"></i>
                         <span class="project-status">Ongoing - Thesis</span>
                     </div>
-                    <h3>Deep Reinforcement Learning for V2X Communication Optimization</h3>
+                    <h3>Data-Enabled Predictive Control for Adaptive V2X Resource Allocation</h3>
                     <p class="project-description">
-                        Developing a DDPG-based RL agent to optimize V2X communication reliability in multi-vehicle simulation environments, addressing challenges in connected and autonomous vehicle systems.
+                        Pioneering application of DeePC (Data-Enabled Predictive Control) to V2X networks, using Hankel matrices and Willems' Fundamental Lemma to achieve model-free adaptive control for safety-critical vehicular communication under extreme traffic densities.
                     </p>
                     <div class="project-details">
-                        <h4>Key Achievements:</h4>
+                        <h4>Key Results:</h4>
                         <ul>
-                            <li>PRR improved from -0.1 (benchmark) to -0.8 (RL), reducing packet loss spikes to -4.8ms</li>
-                            <li>Demonstrated adaptive, robust parameter control in dynamic environments</li>
-                            <li>Outperformed baseline in reliability, efficiency, and reward stability</li>
+                            <li>Zero safety constraint violations (PRR ≥70%, CBR ≤75%) across 100 test episodes vs. 100% baseline failure rate</li>
+                            <li>46% channel congestion reduction (80.4% → 43.6% CBR) preventing network saturation</li>
+                            <li>53% latency improvement (197ms → 92ms delay) meeting 3GPP safety requirements</li>
+                            <li>4× density extrapolation: trained on 50-100 veh/km, successfully deployed at 250-400 veh/km extreme congestion</li>
+                        </ul>
+                        <h4>Technical Innovation:</h4>
+                        <ul>
+                            <li>Model-free control using Hankel matrices (35×709 dimensions) bypassing complex wireless system modeling</li>
+                            <li>Quadratic programming with 709 decision variables achieving real-time performance (164ms solve time)</li>
+                            <li>Traffic-adaptive cost functions with density-dependent references enabling graceful degradation</li>
+                            <li>715 training trajectories from LTE-V2V-Sim v5.4 with NGSIM I-80 realistic vehicle mobility</li>
+                            <li>Validated quasi-LTI behavior via ANOVA analysis (p>0.84) justifying DeePC theoretical foundations</li>
                         </ul>
                         <h4>Technologies:</h4>
                         <div class="tech-tags">
-                            <span class="tag">SUMO</span>
-                            <span class="tag">MATLAB/Simulink</span>
-                            <span class="tag">Deep RL</span>
-                            <span class="tag">DDPG</span>
-                            <span class="tag">Python</span>
+                            <span class="tag">DeePC</span>
+                            <span class="tag">Hankel Matrices</span>
+                            <span class="tag">LTE-V2V-Sim v5.4</span>
+                            <span class="tag">MATLAB</span>
+                            <span class="tag">Quadratic Programming</span>
+                            <span class="tag">3GPP Mode 4</span>
+                            <span class="tag">NGSIM Dataset</span>
+                            <span class="tag">Willems' Lemma</span>
                         </div>
                     </div>
                 </div>
